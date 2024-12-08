@@ -1,0 +1,3 @@
+CHROMA_DB_PATH ="./embeddings"
+MODEL_NAME = "all-MiniLM-L6-v2"
+COHERE_API_KEY = "FLhknNkOKxgJXkj2yx0OwFIV9NwZ5tqZH0GNQjzM"
