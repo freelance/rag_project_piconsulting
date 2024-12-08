@@ -12,8 +12,8 @@ def add_document(request: DocumentRequest):
 	return {"message":"Documento procesado y guardado correctamente."}
 
 @router.post("/ask", response_model=AnswerResponse)
-	context = retrieve_context(request.question)
-	prompt =  build_prompt(request.question, context)
-	answer = ask_llm(prompt)
-	return AnswerResponse(user_name=request.user_name, question=request.question, answer=answer)
-
+def ask_question(request: QuestionRequest):
+    context = retrieve_context(request.question)
+    prompt =  build_prompt(request.question, context)
+    answer = ask_llm(prompt)
+    return AnswerResponse(user_name=request.user_name, question=request.question, answer=answer)
