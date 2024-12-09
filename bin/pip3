@@ -1,4 +1,4 @@
-#!/home/javierbuilder/Desarrollos/ragprojectpiconsulting/bin/python3.11
+#!/home/javierbuilder/Desarrollos/ragprojectpiconsulting/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

@@ -12,6 +12,7 @@ def build_prompt(question, context):
 def  ask_llm(prompt):
 	response = cohere_client.generate(
 		model ="command-xlarge-nightly",
+        #model ="embed-multilingual-v2.0",
 		prompt=prompt,
 		max_tokens = 50,
 		temperature= 0
