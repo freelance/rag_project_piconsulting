@@ -1,8 +1,11 @@
-**/__pycache__
+# Ignorar archivos innecesarios
+__pycache__/
 .pytest_cache
 *.pyc
 *.pyo
 *.pyd
+
+# Ignorar entornos virtuales
 env/
 venv/
 ENV/
@@ -11,3 +14,7 @@ ENV/
 # Ignorar directorios de paquetes de Python 3.10 y 3.11
 lib/python3.10/
 lib/python3.11/
+
+# Ignorar configuraciones de IDE
+.vscode/
+.idea/
