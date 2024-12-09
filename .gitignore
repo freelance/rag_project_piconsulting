@@ -12,8 +12,7 @@ ENV/
 .VENV/
 
 # Ignorar directorios de paquetes de Python 3.10 y 3.11
-lib/python3.10/
-lib/python3.11/
+lib/
 lib64/
 
 # Ignorar configuraciones de IDE
