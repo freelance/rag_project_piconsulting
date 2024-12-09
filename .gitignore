@@ -1,5 +1,13 @@
 **/__pycache__
 .pytest_cache
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+ENV/
+.VENV/
+
 # Ignorar directorios de paquetes de Python 3.10 y 3.11
 lib/python3.10/
 lib/python3.11/
