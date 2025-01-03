@@ -1,6 +1,15 @@
 # rag_project_piconsulting
 challenge
 
+- Necesitás Python 3.10 por un tema de compatibilidad de versiones en dependencias
+
+- tenes que correr ESE requirement.txt (quizá en su propio venv sería mejor!)
+
+    ```
+    pip install -r requirements.txt
+    ```
+
+- instalate las dependencias de la carpeta (pip install -r requirements.txt)
 
 ## Deployment
 
